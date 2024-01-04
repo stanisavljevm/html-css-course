@@ -1,3 +1,4 @@
+/* PAGE SECTIONS */
 * {
 	margin: 0;
 	padding: 0;
@@ -18,7 +19,6 @@ body {
 	background-color: #f7f7f7;
 	padding: 20px 40px;
 	margin-bottom: 60px;
-	height: 80px;
 }
 
 nav {
@@ -41,6 +41,7 @@ aside {
 	width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -152,4 +153,14 @@ a:active {
 .post-img {
 	width: 100%;
 	height: auto;
+}
+
+nav a:link {
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+nav a:link:last-child {
+	margin-right: 0;
 }
